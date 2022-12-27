@@ -2,6 +2,10 @@
 
 This project is a basic food log which tracks calories, proteins, carbohydrates, and fats.
 #
+We have a New Entry react component that posts the user typed data for the meal type being created from the frontend to the Rails backend API. It lets the user add the meal type information (e.g. meal type, calories, proteins, carbohydrates, and fats).
+
+When the user hits the Create Entry button after typing the information, it makes a POST /foodlog API call to the backend Rails API with the meal type information in the request body and the food log record is created and saved in the backend database.
+
 ![Screen Shot 2022-12-27 at 4 10 12 PM](https://user-images.githubusercontent.com/72527380/209723400-7848991d-2181-4501-9fae-8b31a18bdabd.png)
 #
 
