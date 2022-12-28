@@ -15,9 +15,9 @@ We have a Display Entries component that makes a fetch API call (GET /foodlog) t
 ![Screen Shot 2022-12-27 at 4 09 04 PM](https://user-images.githubusercontent.com/72527380/209723405-0df61b03-fc80-4e9b-a9b3-383cbe42aceb.png)
 #
 
-We have EDIT and DELETE buttons that give the user the ability to edit a meal type information and delete the food log.
+We have EDIT and DESTROY buttons that give the user the ability to edit a meal type information and delete the food log.
 
-When the user clicks on the DELETE button, it makes a DELETE request to the Rails backend API and deletes the food log record from the database.
+When the user clicks on the DESTROY button, it makes a DESTROY request to the Rails backend API and deletes the food log record from the database.
 
 ![Screen Shot 2022-12-27 at 4 10 57 PM](https://user-images.githubusercontent.com/72527380/209723412-c7e01b12-f955-4dac-aaf5-c78133f6661b.png)
 #
